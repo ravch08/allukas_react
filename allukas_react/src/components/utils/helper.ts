@@ -30,5 +30,9 @@ export { default as SalesFeatures } from "../sections/SalesFeatures.tsx";
 export { default as StoresNearYou } from "../sections/StoresNearYou.tsx";
 export { default as Testimonials } from "../sections/Testimonials.tsx";
 
+export { default as Loading } from "../features/Loading.tsx";
+export { default as Ratings } from "../features/Ratings.tsx";
 export { default as ScrollToTop } from "../features/ScrollToTop.tsx";
+export { default as SectionHeading } from "../features/SectionHeading.tsx";
 export { default as SocialIcons } from "../features/SocialIcons.tsx";
+export { default as TestimonialItem } from "../features/TestimonialItem.tsx";

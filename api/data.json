@@ -1,7 +1,25 @@
 {
-	"productItems": [
+	"testimonialItems": [
 		{
-			"id": "p1"
+			"id": "t1",
+			"rating": 4,
+			"author": "Donald Duclk",
+			"imgSrc": "../src/assets/testimonial-01.png",
+			"review": "Great products and designs and such great quality, they always wash up well no matter how many times I wash them."
+		},
+		{
+			"id": "t2",
+			"rating": 5,
+			"author": "Niamh Oxley",
+			"imgSrc": "../src/assets/testimonial-02.png",
+			"review": "Beautiful clothes. I always get complements. Good quality and items wash well. products and designs and such great."
+		},
+		{
+			"id": "t3",
+			"rating": 5,
+			"author": "Mary Green",
+			"imgSrc": "../src/assets/testimonial-03.png",
+			"review": "Great products and designs and such great quality, they always wash up well no matter how many times I wash them."
 		}
 	]
 }

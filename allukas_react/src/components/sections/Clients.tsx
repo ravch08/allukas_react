@@ -1,4 +1,3 @@
-import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -10,21 +9,9 @@ const Clients = () => {
     <section aria-labelledby="Clients">
       <div className="container mx-auto">
         <Swiper
-          loop={true}
-          speed={1500}
           spaceBetween={30}
           grabCursor={true}
-          navigation={true}
-          modules={[Autoplay]}
           centeredSlides={false}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-            dynamicBullets: true,
-          }}
           breakpoints={{
             0: {
               slidesPerView: 2,
