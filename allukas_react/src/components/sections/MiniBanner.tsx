@@ -1,5 +1,41 @@
+import { Link } from "react-router-dom";
+import { mbanner01, mbanner02 } from "../utils/helper";
+
 const MiniBanner = () => {
-  return <div>MiniBanner</div>;
+  return (
+    <section aria-labelledby="Collections Banners">
+      <div className="container mx-auto px-8">
+        <div className="grid grid-cols-1 gap-20 lg:grid-cols-2">
+          <div className="mt-12 flex flex-col gap-8">
+            <h2>
+              Collection Designed for <br /> Spring/Summer 2024
+            </h2>
+
+            <img
+              src={mbanner01}
+              alt="Collection Designed for Spring/Summer 2024"
+            />
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <img src={mbanner02} alt="Designed for Those Who Evade Limits" />
+
+            <h2 className="mt-8">Designed for Those Who Evade Limits</h2>
+            <p className="pb-6">
+              Attention to details is always a good feature. We couldn’t think
+              of any better present for our 5th anniversary than a pair of
+              exclusive watches from the Lawson collection. time I look at my
+              watch.
+            </p>
+
+            <Link to="products" className="btn btn-outline w-fit">
+              Explore More
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default MiniBanner;

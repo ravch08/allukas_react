@@ -11,6 +11,8 @@ export { default as client4 } from "../../assets/client-04.png";
 export { default as client5 } from "../../assets/client-05.png";
 export { default as sf_shipping } from "../../assets/free-shipping.jpg";
 export { default as logo } from "../../assets/logo-dark.png";
+export { default as mbanner01 } from "../../assets/mini-banner-01.webp";
+export { default as mbanner02 } from "../../assets/mini-banner-02.jpg";
 export { default as sf_returns } from "../../assets/returns.jpg";
 export { default as sf_securedPayments } from "../../assets/secured-payment.jpg";
 export { default as sf_support } from "../../assets/support.jpg";

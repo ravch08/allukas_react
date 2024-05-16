@@ -6,6 +6,10 @@ section {
   @apply py-24;
 }
 
+h2 {
+  @apply text-4xl font-medium leading-tight;
+}
+
 .swiper-button-next {
   @apply size-8 rounded-full bg-white p-6 text-black transition-colors duration-300 ease-in-out hover:bg-black hover:text-white;
 
@@ -23,7 +27,7 @@ section {
 }
 
 .btn {
-  @apply px-8 py-2 transition-colors duration-300 ease-in-out;
+  @apply inline px-8 py-2 transition-colors duration-300 ease-in-out;
 }
 
 .btn-outline {
