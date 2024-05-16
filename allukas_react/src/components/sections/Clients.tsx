@@ -6,7 +6,10 @@ import { client1, client2, client3, client4, client5 } from "../utils/helper";
 
 const Clients = () => {
   return (
-    <section aria-labelledby="Clients">
+    <section
+      aria-labelledby="Clients"
+      className="border-b border-gray-200 py-16"
+    >
       <div className="container mx-auto">
         <Swiper
           spaceBetween={30}

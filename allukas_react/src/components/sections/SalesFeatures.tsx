@@ -7,7 +7,7 @@ import {
 
 const SalesFeatures = () => {
   return (
-    <section aria-labelledby="Sales Features">
+    <section aria-labelledby="Sales Features" className="py-12">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2  lg:grid-cols-4">
           <div className="flex flex-col items-center justify-center">
