@@ -1,5 +1,5 @@
 {
-	"testimonialItems": [
+	"testimonials": [
 		{
 			"id": "t1",
 			"rating": 4,
@@ -172,6 +172,32 @@
 			"brand": "Dr. Martens",
 			"price": "119.00",
 			"priceCrossed": "145.00"
+		}
+	],
+	"team": [
+		{
+			"id": "t1",
+			"title": "Nimrod Barshad",
+			"designation": "Founder/CEO",
+			"imgSrc": "../src/assets/about-us-team-1.webp"
+		},
+		{
+			"id": "t2",
+			"title": "Claude K. Amadeo",
+			"designation": "Sales Director",
+			"imgSrc": "../src/assets/about-us-team-2.webp"
+		},
+		{
+			"id": "t3",
+			"title": "Luke M. Dugan",
+			"designation": "Manager",
+			"imgSrc": "../src/assets/about-us-team-3.webp"
+		},
+		{
+			"id": "t4",
+			"title": "Mark Pocket",
+			"designation": "Product Manager",
+			"imgSrc": "../src/assets/about-us-team-4.webp"
 		}
 	]
 }

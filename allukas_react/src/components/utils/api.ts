@@ -1,6 +1,6 @@
 export async function getTestimonials() {
   try {
-    const res = await fetch("http://localhost:3000/testimonialItems");
+    const res = await fetch("http://localhost:3000/testimonials");
     const data = await res.json();
     return data;
   } catch (error) {
@@ -15,5 +15,15 @@ export async function getProducts() {
     return data;
   } catch (error) {
     throw new Error("Something went wrong! Cannot fetch Products.");
+  }
+}
+
+export async function getTeams() {
+  try {
+    const res = await fetch("http://localhost:3000/team");
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    throw new Error("Something went wrong! Cannot fetch Team members.");
   }
 }

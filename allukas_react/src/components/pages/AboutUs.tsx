@@ -1,4 +1,10 @@
-import { OurMission, OurStory, PagesBanner } from "../utils/helper";
+import {
+  OurMission,
+  OurStory,
+  OurTeam,
+  PagesBanner,
+  SalesFeatures,
+} from "../utils/helper";
 
 const AboutUs = () => {
   return (
@@ -9,6 +15,8 @@ const AboutUs = () => {
       />
       <OurStory />
       <OurMission />
+      <OurTeam />
+      <SalesFeatures />
     </main>
   );
 };

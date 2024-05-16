@@ -35,9 +35,10 @@ const Testimonials = () => {
     <section aria-labelledby="Testimonials" className="bg-testimonial">
       <div className="container mx-auto">
         <SectionHeading
-          heading="Testimonials"
+          heading="Our Testimonials"
           subHeading="Allukas is my favorite store"
         />
+
         <Swiper
           speed={1000}
           className="pb-12"
@@ -52,13 +53,14 @@ const Testimonials = () => {
             dynamicBullets: true,
           }}
         >
-          {status === "pending" ? (
-            <div className="flex items-center justify-center">
-              <Loading />
-            </div>
-          ) : null}
-
-          {status === "error" ? <p>{error.message}</p> : null}
+          <div className="flex items-center justify-center">
+            {status === "pending" ? <Loading /> : null}
+            {status === "error" ? (
+              <p className="w-full bg-red-400 p-4 text-center text-white">
+                {error.message}
+              </p>
+            ) : null}
+          </div>
 
           {testimonials
             ? testimonials?.map((testimonial: TestimonialProps) => (
