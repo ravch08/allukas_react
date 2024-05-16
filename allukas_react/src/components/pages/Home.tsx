@@ -11,6 +11,8 @@ import {
   Testimonials,
 } from "../utils/helper";
 
+// https://demo-alukas.myshopify.com/#
+
 const Home = () => {
   return (
     <main>
