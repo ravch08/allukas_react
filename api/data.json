@@ -21,5 +21,157 @@
 			"imgSrc": "../src/assets/testimonial-03.png",
 			"review": "Great products and designs and such great quality, they always wash up well no matter how many times I wash them."
 		}
+	],
+	"products": [
+		{
+			"id": "pr1",
+			"imgSrc1": "../src/assets/product-11.jpg",
+			"imgSrc2": "../src/assets/product-12.jpg",
+			"title": "Love Both Engagement Ring",
+			"categories": ["rings", "bestseller", "featured"],
+			"brand": "Alexander McQueen",
+			"price": "119.00",
+			"priceCrossed": "149.00"
+		},
+		{
+			"id": "pr2",
+			"imgSrc1": "../src/assets/product-21.jpg",
+			"imgSrc2": "../src/assets/product-22.jpg",
+			"title": "Cross of Light Pendant",
+			"categories": ["necklace", "new arrivals", "featured"],
+			"brand": "Logitech",
+			"price": "79.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr3",
+			"imgSrc1": "../src/assets/product-31.jpg",
+			"imgSrc2": "../src/assets/product-32.jpg",
+			"title": "Circle Signet Ring",
+			"categories": ["rings", "new arrivals"],
+			"brand": "Badgley Mischka",
+			"price": "24.00",
+			"priceCrossed": "45.00"
+		},
+		{
+			"id": "pr4",
+			"imgSrc1": "../src/assets/product-41.jpg",
+			"imgSrc2": "../src/assets/product-42.jpg",
+			"title": "Reflections Gold Rings",
+			"categories": ["rings", "bestseller"],
+			"brand": "Champion",
+			"price": "36.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr5",
+			"imgSrc1": "../src/assets/product-51.jpg",
+			"imgSrc2": "../src/assets/product-52.jpg",
+			"title": "Four-Leaf Clover Rings",
+			"categories": ["rings", "bestseller", "featured"],
+			"brand": "Ballantyne",
+			"price": "129.00",
+			"priceCrossed": "149.00"
+		},
+		{
+			"id": "pr6",
+			"imgSrc1": "../src/assets/product-61.jpg",
+			"imgSrc2": "../src/assets/product-62.jpg",
+			"title": "Luxury Rose Pendragon Ring",
+			"categories": ["rings", "featured"],
+			"brand": "AllSaints",
+			"price": "49.00",
+			"priceCrossed": "59.00"
+		},
+		{
+			"id": "pr7",
+			"imgSrc1": "../src/assets/product-71.jpg",
+			"imgSrc2": "../src/assets/product-72.jpg",
+			"title": "Kalvesna Diamond Twig Ring",
+			"categories": ["rings", "new arrivals", "featured"],
+			"brand": "BaubleBar",
+			"price": "39.00",
+			"priceCrossed": "59.00"
+		},
+		{
+			"id": "pr8",
+			"imgSrc1": "../src/assets/product-81.jpg",
+			"imgSrc2": "../src/assets/product-82.jpg",
+			"title": "Sparkling Crown Charm Bracelet",
+			"categories": ["bracelet", "new arrivals", "featured"],
+			"brand": "Desigual",
+			"price": "124.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr9",
+			"imgSrc1": "../src/assets/product-91.jpg",
+			"imgSrc2": "../src/assets/product-92.jpg",
+			"title": "Cross Stripes & Stone Bracelet",
+			"categories": ["bracelet", "bestseller", "featured"],
+			"brand": "Daniele Fiesoli",
+			"price": "169.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr10",
+			"imgSrc1": "../src/assets/product-101.jpg",
+			"imgSrc2": "../src/assets/product-102.jpg",
+			"title": "Echoes Swing word Bracelet",
+			"categories": ["bracelet", "new arrivals"],
+			"brand": "Chiara Ferragni",
+			"price": "79.00",
+			"priceCrossed": "89.00"
+		},
+		{
+			"id": "pr11",
+			"imgSrc1": "../src/assets/product-111.jpg",
+			"imgSrc2": "../src/assets/product-112.jpg",
+			"title": "Birds of Paradise Pendant",
+			"categories": ["necklace", "bestseller", "charm & dangle"],
+			"brand": "Adrianna Papell",
+			"price": "149.00",
+			"priceCrossed": "169.00"
+		},
+		{
+			"id": "pr12",
+			"imgSrc1": "../src/assets/product-121.jpg",
+			"imgSrc2": "../src/assets/product-122.jpg",
+			"title": "Echoes Necklace Extension Piece",
+			"categories": ["necklace", "bestseller", "featured"],
+			"brand": "Alukas",
+			"price": "199.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr13",
+			"imgSrc1": "../src/assets/product-131.jpg",
+			"imgSrc2": "../src/assets/product-132.jpg",
+			"title": "Sterling Silver Dangles Earrings",
+			"categories": ["earring", "featured"],
+			"brand": "Alukas",
+			"price": "139.00",
+			"priceCrossed": ""
+		},
+		{
+			"id": "pr14",
+			"imgSrc1": "../src/assets/product-141.jpg",
+			"imgSrc2": "../src/assets/product-142.jpg",
+			"title": "Blue Stripes & Stone Earrings",
+			"categories": ["earring", "featured"],
+			"brand": "Aglini",
+			"price": "249.00",
+			"priceCrossed": "260.00"
+		},
+		{
+			"id": "pr15",
+			"imgSrc1": "../src/assets/product-151.jpg",
+			"imgSrc2": "../src/assets/product-152.jpg",
+			"title": "Pandora Flower Stem Earrings",
+			"categories": ["earring", "bestseller"],
+			"brand": "Dr. Martens",
+			"price": "119.00",
+			"priceCrossed": "145.00"
+		}
 	]
 }

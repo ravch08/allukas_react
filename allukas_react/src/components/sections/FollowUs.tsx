@@ -43,9 +43,6 @@ const FollowUs = () => {
             1024: {
               slidesPerView: 5,
             },
-            1400: {
-              slidesPerView: 6,
-            },
           }}
         >
           <SwiperSlide>

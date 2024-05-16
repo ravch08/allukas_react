@@ -1,3 +1,4 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Route,
   RouterProvider,
@@ -5,7 +6,6 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   AboutUs,
   Contact,
@@ -14,19 +14,8 @@ import {
   Page404,
   Products,
 } from "./components/utils/helper";
+import { productsLoader } from "./components/utils/loaders";
 import "./styles/App.css";
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route element={<Layout />}>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<AboutUs />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="products" element={<Products />} />
-      <Route path="*" element={<Page404 />} />
-    </Route>,
-  ),
-);
 
 export const queryClient = new QueryClient({
   defaultOptions: {
@@ -35,6 +24,18 @@ export const queryClient = new QueryClient({
     },
   },
 });
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<Layout />}>
+      <Route path="/" element={<Home />} loader={productsLoader} />
+      <Route path="about" element={<AboutUs />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="products" element={<Products />} />
+      <Route path="*" element={<Page404 />} />
+    </Route>,
+  ),
+);
 
 function App() {
   return (

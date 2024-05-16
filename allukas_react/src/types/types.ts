@@ -6,3 +6,12 @@ export type SectionHeadingProps = {
 export type RatingsProps = {
   stars: number;
 };
+
+export type CategoryProps = {
+  catImgSrc: string;
+  category: string;
+};
+
+export type CategoryArrProps = {
+  categoryArr: CategoryProps[];
+};
