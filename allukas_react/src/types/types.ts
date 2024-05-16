@@ -15,3 +15,8 @@ export type CategoryProps = {
 export type CategoryArrProps = {
   categoryArr: CategoryProps[];
 };
+
+export type PageBannerProps = {
+  pageTitle: string;
+  subTitle: string;
+};
