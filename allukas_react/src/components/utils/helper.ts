@@ -1,3 +1,9 @@
+export { default as insta01 } from "../../assets/alk_i1.jpg";
+export { default as insta02 } from "../../assets/alk_i2.jpg";
+export { default as insta03 } from "../../assets/alk_i3.jpg";
+export { default as insta04 } from "../../assets/alk_i4.jpg";
+export { default as insta05 } from "../../assets/alk_i5.jpg";
+export { default as insta06 } from "../../assets/alk_i6.jpg";
 export { default as client1 } from "../../assets/client-01.png";
 export { default as client2 } from "../../assets/client-02.png";
 export { default as client3 } from "../../assets/client-03.png";
