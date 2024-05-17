@@ -21,14 +21,14 @@ const ScrollTop = () => {
   }, []);
 
   const scrollTop =
-    "fixed bottom-8 right-8 flex h-12 w-12 scale-0 cursor-pointer items-center justify-center rounded-full bg-primary shadow-lg transition-transform duration-300 ease-in-out hover:bg-primary-100";
+    "fixed bottom-8 right-8 flex h-12 w-12 scale-0 cursor-pointer items-center justify-center rounded-full bg-black shadow-lg transition-transform duration-300 ease-in-out";
 
   return (
-    <div className={`${scrollTop} ${scroll}`} onClick={scrollToTop} >
+    <div className={`${scrollTop} ${scroll}`} onClick={scrollToTop}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
-        fill="currentColor"
+        fill="white"
         className="h-5 w-5"
       >
         <path

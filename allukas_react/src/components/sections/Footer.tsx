@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { SocialIcons, logo } from "../utils/helper";
+import { ScrollToTop, SocialIcons, logo } from "../utils/helper";
 
 const Footer = () => {
   return (
@@ -94,6 +94,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <ScrollToTop />
     </footer>
   );
 };

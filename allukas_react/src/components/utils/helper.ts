@@ -74,12 +74,14 @@ export { default as SalesFeatures } from "../sections/SalesFeatures.tsx";
 export { default as StoresNearYou } from "../sections/StoresNearYou.tsx";
 export { default as Testimonials } from "../sections/Testimonials.tsx";
 
+export { default as CategoryDropdown } from "../features/CategoryDropdown.tsx";
 export { default as CategoryItem } from "../features/CategoryItem.tsx";
-export { default as Error } from "../features/Error.tsx";
 export { default as Loading } from "../features/Loading.tsx";
 export { default as Ratings } from "../features/Ratings.tsx";
 export { default as ScrollToTop } from "../features/ScrollToTop.tsx";
+export { default as SearchBar } from "../features/SearchBar.tsx";
 export { default as SectionHeading } from "../features/SectionHeading.tsx";
 export { default as SocialIcons } from "../features/SocialIcons.tsx";
 export { default as TeamItem } from "../features/TeamItem.tsx";
 export { default as TestimonialItem } from "../features/TestimonialItem.tsx";
+export { default as UserCart } from "../features/UserCart.tsx";
