@@ -16,7 +16,7 @@ import {
 const FollowUs = () => {
   return (
     <section aria-labelledby="Follow Us on Instagram">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6">
         <SectionHeading heading="Follow Us on Instagram" subHeading="@bersky" />
 
         <Swiper

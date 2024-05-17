@@ -7,7 +7,7 @@ const Header = () => {
   const [sticky, setSticky] = useState("");
 
   const handleScroll = () => {
-    const scrollClass = window.scrollY > 150 ? "sticky" : "";
+    const scrollClass = window.scrollY > 300 ? "sticky" : "";
     setSticky(scrollClass);
   };
 
@@ -17,7 +17,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={` ${sticky}`}>
+    <header className={sticky}>
       <div className="container mx-auto px-8">
         <div className="grid grid-cols-3 gap-6">
           <SearchBar />
