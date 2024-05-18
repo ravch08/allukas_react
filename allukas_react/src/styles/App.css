@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 section {
-  @apply py-24;
+  @apply py-20;
 }
 
 h2 {

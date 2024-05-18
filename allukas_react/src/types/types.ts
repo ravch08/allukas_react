@@ -1,3 +1,5 @@
+import { ProductsProps } from "../components/pages/Home";
+
 export type SectionHeadingProps = {
   heading: string;
   subHeading: string;
@@ -25,9 +27,14 @@ export type ErrorProps = {
   errorMsg: string;
 };
 
-// export type TeamProps = {
-//   id?: string;
-//   title: string;
-//   imgSrc: string;
-//   designation: string;
-// };
+export type ProductCompProps = {
+  products: ProductsProps[];
+};
+
+export type SortedProductProps = {
+  products: ProductsProps[];
+  status: string;
+  error: string;
+  heading: string;
+  subHeading: string;
+};

@@ -7,11 +7,10 @@ import {
   Banner,
   Categories,
   Clients,
-  FeaturedProducts,
   FollowUs,
   MiniBanner,
-  NewArrivals,
   SalesFeatures,
+  SortedProducts,
   StoresNearYou,
   Testimonials,
 } from "../utils/helper";
@@ -19,11 +18,11 @@ import {
 // https://demo-alukas.myshopify.com/#
 
 const productSchema = z.object({
-  id: string(),
+  id: string().optional(),
   title: string(),
   brand: string(),
   price: string(),
-  categories: string().array(),
+  categories: string().array().optional(),
   priceCrossed: string(),
   imgSrc1: string().url(),
   imgSrc2: string().url(),
@@ -32,7 +31,11 @@ const productSchema = z.object({
 export type ProductsProps = z.infer<typeof productSchema>;
 
 const Home = () => {
-  const { data: products } = useQuery({
+  const {
+    data: products,
+    status,
+    error,
+  } = useQuery({
     queryKey: ["products"],
     queryFn: getProducts,
   });
@@ -40,7 +43,7 @@ const Home = () => {
   const uniqueCategories = {} as { [key: string]: string };
 
   products.forEach((product: ProductsProps) => {
-    product?.categories.forEach((category) => {
+    product?.categories!.forEach((category) => {
       if (!uniqueCategories[category]) {
         uniqueCategories[category] = product.imgSrc1;
       }
@@ -59,14 +62,34 @@ const Home = () => {
         cat.category !== "bestseller",
     );
 
+  const newArrivals = products.filter((prod: ProductsProps) =>
+    prod.categories!.includes("new arrivals"),
+  );
+
+  const featuredProducts = products.filter((prod: ProductsProps) =>
+    prod.categories!.includes("featured"),
+  );
+
   return (
     <main>
       <Banner />
       <Categories categoryArr={categoriesArray} />
-      <NewArrivals />
-      <StoresNearYou />
+      <SortedProducts
+        error={status === "error" ? error.message : ""}
+        status={status}
+        products={newArrivals}
+        heading={"New Arrivals"}
+        subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas neque nulla aliquid veniam rerum."
+      />
       <MiniBanner />
-      <FeaturedProducts />
+      <StoresNearYou />
+      <SortedProducts
+        error={status === "error" ? error.message : ""}
+        status={status}
+        products={featuredProducts}
+        heading={"Featured Products"}
+        subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas neque nulla aliquid veniam rerum."
+      />
       <Testimonials />
       <Clients />
       <FollowUs />

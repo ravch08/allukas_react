@@ -68,7 +68,7 @@
 			"imgSrc1": "../src/assets/product-51.jpg",
 			"imgSrc2": "../src/assets/product-52.jpg",
 			"title": "Four-Leaf Clover Rings",
-			"categories": ["rings", "bestseller", "featured"],
+			"categories": ["rings", "bestseller"],
 			"brand": "Ballantyne",
 			"price": "129.00",
 			"priceCrossed": "149.00"
@@ -98,7 +98,7 @@
 			"imgSrc1": "../src/assets/product-81.jpg",
 			"imgSrc2": "../src/assets/product-82.jpg",
 			"title": "Sparkling Crown Charm Bracelet",
-			"categories": ["bracelet", "new arrivals", "featured"],
+			"categories": ["bracelet", "new arrivals"],
 			"brand": "Desigual",
 			"price": "124.00",
 			"priceCrossed": ""
@@ -158,7 +158,7 @@
 			"imgSrc1": "../src/assets/product-141.jpg",
 			"imgSrc2": "../src/assets/product-142.jpg",
 			"title": "Blue Stripes & Stone Earrings",
-			"categories": ["earring", "featured"],
+			"categories": ["earring", "featured", "charm & dangle"],
 			"brand": "Aglini",
 			"price": "249.00",
 			"priceCrossed": "260.00"
@@ -168,7 +168,7 @@
 			"imgSrc1": "../src/assets/product-151.jpg",
 			"imgSrc2": "../src/assets/product-152.jpg",
 			"title": "Pandora Flower Stem Earrings",
-			"categories": ["earring", "bestseller"],
+			"categories": ["earring", "bestseller", "charm & dangle"],
 			"brand": "Dr. Martens",
 			"price": "119.00",
 			"priceCrossed": "145.00"

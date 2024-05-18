@@ -22,7 +22,7 @@ export type ContactProps = z.infer<typeof contactSchema>;
 const ContactForm = () => {
   const {
     register,
-    control,
+    // control,
     reset,
     handleSubmit,
     formState: { errors },
