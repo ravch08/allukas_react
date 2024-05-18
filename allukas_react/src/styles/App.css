@@ -27,7 +27,7 @@ h2 {
 }
 
 .btn {
-  @apply inline px-8 py-2 transition-colors duration-300 ease-in-out;
+  @apply inline px-10 py-3 transition-colors duration-300 ease-in-out;
 }
 
 .btn-outline {
@@ -35,7 +35,7 @@ h2 {
 }
 
 .btn-black {
-  @apply bg-black text-white hover:bg-transparent hover:text-black;
+  @apply border border-black bg-black text-white hover:bg-transparent hover:text-black;
 }
 
 .ftr-link {
@@ -51,9 +51,22 @@ h2 {
 }
 
 header {
-  @apply z-50 bg-white transition-all duration-500 ease-in-out;
+  @apply relative z-50 bg-white transition-all duration-500 ease-in-out;
 
   &.sticky {
     @apply fixed left-0 top-0 w-full pt-4 shadow-lg;
   }
+}
+
+.form-control {
+  @apply my-4 block w-full;
+}
+
+input,
+textarea {
+  @apply w-full border border-gray-300 bg-white px-4 py-4;
+}
+
+.form-error {
+  @apply mt-2 pl-2 text-sm italic text-red-500;
 }

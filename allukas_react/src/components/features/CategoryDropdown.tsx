@@ -15,10 +15,9 @@ const CategoryDropdown = () => {
           Browse Categories
         </span>
         <svg
-          fill="currentColor"
-          className="h-4 w-4"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
+          className={`h-4 w-4 transition-transform duration-300 ease-in-out ${showCatDropdown ? "rotate-180 fill-white" : "fill-black"}`}
         >
           <path
             fillRule="evenodd"

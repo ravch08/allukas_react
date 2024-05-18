@@ -69,6 +69,7 @@ export { default as Products } from "../pages/Products.tsx";
 export { default as Banner } from "../sections/Banner.tsx";
 export { default as Categories } from "../sections/Categories.tsx";
 export { default as Clients } from "../sections/Clients.tsx";
+export { default as ContactForm } from "../sections/ContactForm.tsx";
 export { default as FeaturedProducts } from "../sections/FeaturedProducts.tsx";
 export { default as FollowUs } from "../sections/FollowUs.tsx";
 export { default as Footer } from "../sections/Footer.tsx";
@@ -80,6 +81,7 @@ export { default as OurStory } from "../sections/OurStory.tsx";
 export { default as OurTeam } from "../sections/OurTeam.tsx";
 export { default as PagesBanner } from "../sections/PagesBanner.tsx";
 export { default as SalesFeatures } from "../sections/SalesFeatures.tsx";
+export { default as StoreMap } from "../sections/StoreMap.tsx";
 export { default as StoresNearYou } from "../sections/StoresNearYou.tsx";
 export { default as Testimonials } from "../sections/Testimonials.tsx";
 

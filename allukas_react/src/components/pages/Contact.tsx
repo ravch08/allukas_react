@@ -1,8 +1,22 @@
+import {
+  ContactForm,
+  PagesBanner,
+  SalesFeatures,
+  StoreMap,
+} from "../utils/helper";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <main>
+      <PagesBanner
+        pageTitle="Contact"
+        subTitle="Click on your neares store location below to set the road on Google Map."
+      />
+      <StoreMap />
+      <ContactForm />
+      <SalesFeatures />
+    </main>
+  );
+};
 
-export default Contact
+export default Contact;

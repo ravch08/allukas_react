@@ -64,6 +64,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className="relative flex flex-col">
             <picture>
@@ -89,6 +90,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className="relative flex flex-col">
             <picture>
