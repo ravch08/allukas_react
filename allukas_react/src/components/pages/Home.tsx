@@ -22,6 +22,7 @@ const productSchema = z.object({
   title: string(),
   brand: string(),
   price: string(),
+  rating: string(),
   categories: string().array().optional(),
   priceCrossed: string(),
   imgSrc1: string().url(),

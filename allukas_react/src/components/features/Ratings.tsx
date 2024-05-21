@@ -7,9 +7,9 @@ const Ratings = (props: RatingsProps) => {
 
   const star = (
     <svg
+      fill="black"
       viewBox="0 0 24 24"
       className="h-5 w-5"
-      fill="goldenrod"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -24,9 +24,9 @@ const Ratings = (props: RatingsProps) => {
     <svg
       fill="none"
       strokeWidth={1.5}
+      stroke="black"
       viewBox="0 0 24 24"
       className="h-5 w-5"
-      stroke="goldenrod"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

@@ -25,6 +25,7 @@
 	"products": [
 		{
 			"id": "pr1",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-11.jpg",
 			"imgSrc2": "../src/assets/product-12.jpg",
 			"title": "Love Both Engagement Ring",
@@ -35,6 +36,7 @@
 		},
 		{
 			"id": "pr2",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-21.jpg",
 			"imgSrc2": "../src/assets/product-22.jpg",
 			"title": "Cross of Light Pendant",
@@ -45,6 +47,7 @@
 		},
 		{
 			"id": "pr3",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-31.jpg",
 			"imgSrc2": "../src/assets/product-32.jpg",
 			"title": "Circle Signet Ring",
@@ -55,6 +58,7 @@
 		},
 		{
 			"id": "pr4",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-41.jpg",
 			"imgSrc2": "../src/assets/product-42.jpg",
 			"title": "Reflections Gold Rings",
@@ -65,6 +69,7 @@
 		},
 		{
 			"id": "pr5",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-51.jpg",
 			"imgSrc2": "../src/assets/product-52.jpg",
 			"title": "Four-Leaf Clover Rings",
@@ -75,6 +80,7 @@
 		},
 		{
 			"id": "pr6",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-61.jpg",
 			"imgSrc2": "../src/assets/product-62.jpg",
 			"title": "Luxury Rose Pendragon Ring",
@@ -85,6 +91,7 @@
 		},
 		{
 			"id": "pr7",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-71.jpg",
 			"imgSrc2": "../src/assets/product-72.jpg",
 			"title": "Kalvesna Diamond Twig Ring",
@@ -95,6 +102,7 @@
 		},
 		{
 			"id": "pr8",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-81.jpg",
 			"imgSrc2": "../src/assets/product-82.jpg",
 			"title": "Sparkling Crown Charm Bracelet",
@@ -105,6 +113,7 @@
 		},
 		{
 			"id": "pr9",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-91.jpg",
 			"imgSrc2": "../src/assets/product-92.jpg",
 			"title": "Cross Stripes & Stone Bracelet",
@@ -115,6 +124,7 @@
 		},
 		{
 			"id": "pr10",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-101.jpg",
 			"imgSrc2": "../src/assets/product-102.jpg",
 			"title": "Echoes Swing word Bracelet",
@@ -125,6 +135,7 @@
 		},
 		{
 			"id": "pr11",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-111.jpg",
 			"imgSrc2": "../src/assets/product-112.jpg",
 			"title": "Birds of Paradise Pendant",
@@ -135,6 +146,7 @@
 		},
 		{
 			"id": "pr12",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-121.jpg",
 			"imgSrc2": "../src/assets/product-122.jpg",
 			"title": "Echoes Necklace Extension Piece",
@@ -145,6 +157,7 @@
 		},
 		{
 			"id": "pr13",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-131.jpg",
 			"imgSrc2": "../src/assets/product-132.jpg",
 			"title": "Sterling Silver Dangles Earrings",
@@ -155,6 +168,7 @@
 		},
 		{
 			"id": "pr14",
+			"rating": "4",
 			"imgSrc1": "../src/assets/product-141.jpg",
 			"imgSrc2": "../src/assets/product-142.jpg",
 			"title": "Blue Stripes & Stone Earrings",
@@ -165,6 +179,7 @@
 		},
 		{
 			"id": "pr15",
+			"rating": "5",
 			"imgSrc1": "../src/assets/product-151.jpg",
 			"imgSrc2": "../src/assets/product-152.jpg",
 			"title": "Pandora Flower Stem Earrings",

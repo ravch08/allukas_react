@@ -29,7 +29,7 @@ const SortedProducts = (props: SortedProductProps) => {
           modules={[Pagination, Navigation]}
           pagination={{
             clickable: true,
-            dynamicBullets: false,
+            dynamicBullets: true,
           }}
           breakpoints={{
             300: {
@@ -56,9 +56,11 @@ const SortedProducts = (props: SortedProductProps) => {
             ? products?.map((product: ProductsProps) => (
                 <SwiperSlide key={product.id}>
                   <ProductItem
+                    id={product.id}
                     title={product.title}
                     price={product.price}
                     brand={product.brand}
+                    rating={product.rating}
                     imgSrc1={product.imgSrc1}
                     imgSrc2={product.imgSrc2}
                     priceCrossed={product.priceCrossed}

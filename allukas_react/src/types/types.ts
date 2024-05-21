@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { ProductsProps } from "../components/pages/Home";
 
 export type SectionHeadingProps = {
@@ -6,7 +7,7 @@ export type SectionHeadingProps = {
 };
 
 export type RatingsProps = {
-  stars: number;
+  stars: string;
 };
 
 export type CategoryProps = {
@@ -31,10 +32,28 @@ export type ProductCompProps = {
   products: ProductsProps[];
 };
 
+export type ProductInfoProps = {
+  product: ProductsProps;
+};
+
 export type SortedProductProps = {
   products: ProductsProps[];
   status: string;
   error: string;
   heading: string;
   subHeading: string;
+};
+
+export type ModalProps = {
+  children: ReactNode;
+  modalTitle: string;
+  handleClose: () => void;
+};
+
+export type ModalCompProps = {
+  closeModal: () => void;
+};
+
+export type OverlayCompProps = {
+  handleClose: () => void;
 };

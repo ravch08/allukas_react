@@ -7,7 +7,7 @@ const CategoryDropdown = () => {
     <div className="flex items-center justify-start gap-2">
       <button
         onClick={() => setShowCatDropdown((prev) => !prev)}
-        className={`relative flex items-center justify-start gap-2 transition-colors duration-300 ease-in-out ${showCatDropdown ? `bg-black` : `bg-gray-300`} px-6 py-6`}
+        className={`relative flex items-center justify-start gap-2 transition-colors duration-300 ease-in-out ${showCatDropdown ? `bg-black` : `bg-gray-300`} px-6 py-4`}
       >
         <span
           className={showCatDropdown ? "uppercase text-white" : "uppercase"}

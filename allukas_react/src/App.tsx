@@ -9,10 +9,15 @@ import {
 import {
   AboutUs,
   Contact,
+  Description,
   Home,
   Layout,
   Page404,
+  ProductDetail,
   Products,
+  ReturnPolicies,
+  Reviews,
+  Shipping,
 } from "./components/utils/helper";
 import { productsLoader } from "./components/utils/loaders";
 import "./styles/App.css";
@@ -32,6 +37,12 @@ const router = createBrowserRouter(
       <Route path="about" element={<AboutUs />} />
       <Route path="contact" element={<Contact />} />
       <Route path="products" element={<Products />} />
+      <Route path="products/:id" element={<ProductDetail />}>
+        <Route index element={<Description />} />
+        <Route path="reviews" element={<Reviews />} />
+        <Route path="shipping" element={<Shipping />} />
+        <Route path="return-policies" element={<ReturnPolicies />} />
+      </Route>
       <Route path="*" element={<Page404 />} />
     </Route>,
   ),

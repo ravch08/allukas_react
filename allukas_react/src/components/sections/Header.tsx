@@ -43,7 +43,7 @@ const Header = () => {
 
       <div className="border-t border-gray-200"></div>
 
-      <div className="container mx-auto  px-8 ">
+      <div className="container mx-auto px-8">
         <div className="grid grid-cols-3 justify-end gap-6">
           <CategoryDropdown />
 
@@ -105,6 +105,8 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      <div className="border-b border-gray-200"></div>
     </header>
   );
 };
