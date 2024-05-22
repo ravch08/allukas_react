@@ -1,4 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+
 import {
   Route,
   RouterProvider,
@@ -19,7 +21,6 @@ import {
   Reviews,
   Shipping,
 } from "./components/utils/helper";
-import { productsLoader } from "./components/utils/loaders";
 import "./styles/App.css";
 
 export const queryClient = new QueryClient({
@@ -33,7 +34,7 @@ export const queryClient = new QueryClient({
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Layout />}>
-      <Route path="/" element={<Home />} loader={productsLoader} />
+      <Route path="/" element={<Home />} />
       <Route path="about" element={<AboutUs />} />
       <Route path="contact" element={<Contact />} />
       <Route path="products" element={<Products />} />
@@ -52,6 +53,11 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
+      <ReactQueryDevtools
+        client={queryClient}
+        initialIsOpen={false}
+        buttonPosition="bottom-left"
+      />
     </QueryClientProvider>
   );
 }

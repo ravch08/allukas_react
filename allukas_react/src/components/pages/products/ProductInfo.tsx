@@ -144,7 +144,7 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
         </div>
       </div>
 
-      <figure className=" relative mt-12 flex w-full items-center justify-center border border-gray-200 px-6 py-8">
+      <figure className="relative mt-12 flex w-full items-center justify-center border border-gray-200 px-6 py-8">
         <figcaption className="absolute -top-7 left-1/2 -translate-x-1/2 bg-white p-4 text-slate-400">
           Guanantee safe checkout
         </figcaption>

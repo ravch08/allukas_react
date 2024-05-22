@@ -57,7 +57,7 @@ const ProductItem = (props: ProductsProps) => {
       </figure>
       <span className="mt-6 text-sm uppercase text-gray-400">{brand}</span>
       <Link
-        to={`products/${id}`}
+        to={`/products/${id}`}
         className="pb-2 text-lg transition-colors duration-300 ease-in-out hover:text-rose-500"
       >
         {title}

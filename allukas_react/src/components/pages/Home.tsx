@@ -43,7 +43,7 @@ const Home = () => {
 
   const uniqueCategories = {} as { [key: string]: string };
 
-  products.forEach((product: ProductsProps) => {
+  products?.forEach((product: ProductsProps) => {
     product?.categories!.forEach((category) => {
       if (!uniqueCategories[category]) {
         uniqueCategories[category] = product.imgSrc1;
@@ -63,11 +63,11 @@ const Home = () => {
         cat.category !== "bestseller",
     );
 
-  const newArrivals = products.filter((prod: ProductsProps) =>
+  const newArrivals = products?.filter((prod: ProductsProps) =>
     prod.categories!.includes("new arrivals"),
   );
 
-  const featuredProducts = products.filter((prod: ProductsProps) =>
+  const featuredProducts = products?.filter((prod: ProductsProps) =>
     prod.categories!.includes("featured"),
   );
 

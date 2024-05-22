@@ -5,7 +5,9 @@ const ModalSize = ({ closeModal }: ModalCompProps) => {
   return (
     <Modal modalTitle="Size Guide" handleClose={closeModal}>
       <div className="p-8">
-        <h3 className="mb-4">Jewelry Sizing Guide</h3>
+        <span className="mb-4 block text-2xl font-medium leading-tight">
+          Jewelry Sizing Guide
+        </span>
         <p>
           This guide will help you find the perfect fit for your jewelry.
           Remember, sizing can vary between brands, so it's always a good idea
@@ -13,7 +15,9 @@ const ModalSize = ({ closeModal }: ModalCompProps) => {
           available.
         </p>
 
-        <h3 className="mb-4 mt-8">Rings</h3>
+        <span className="mb-4 mt-8 block text-2xl font-medium leading-tight">
+          Rings
+        </span>
         <p>
           Rings should fit comfortably on your finger without feeling too loose
           or constricting. To measure your finger size, you can:
@@ -28,7 +32,9 @@ const ModalSize = ({ closeModal }: ModalCompProps) => {
           corresponding size. **Ring Size Chart (Reference Only):**
         </p>
 
-        <h3 className="mb-4 mt-8">Necklaces</h3>
+        <span className="mb-4 mt-8 block text-2xl font-medium leading-tight">
+          Necklaces
+        </span>
         <p>
           Necklace length can dramatically affect the look and feel of your
           outfit. Here's a guide to common necklace lengths:
@@ -57,7 +63,9 @@ const ModalSize = ({ closeModal }: ModalCompProps) => {
           </li>
         </ul>
 
-        <h3 className="mb-4 mt-8">Earrings</h3>
+        <span className="mb-4 mt-8 block text-2xl font-medium leading-tight">
+          Earrings
+        </span>
         <p>
           Earrings come in a variety of styles and sizes, so it's important to
           consider your personal preferences and facial features when choosing a
